@@ -1,16 +1,53 @@
 body {
-  font-family: sans-serif;
+  font-family: sans-serif; /*Mettre plusieurs polices*/
   margin: auto;
   max-width: 1280px;
 }
 
-.navbar {
+header p 
+{
+  text-align: center;
+  font-weight: bold;
+  background-color: #FFDFA0;
+  margin:0;
+  padding: 5px;
+}
+
+menu
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  background-color: #FFDFA0;
+}
+
+menu p 
+{
+  margin: 1%;
+}
+
+footer
+{
+  text-align: center;
+
+}
+
+footer a
+{
+  text-decoration: none;
+  color: rgb(240, 193, 99);
+}
+
+
+/*
+.menu {
   background-color: #313236;
   border-radius: 2px;
   max-width: 800px;
 }
 
-.navbar a {
+.menu a {
   color: #aaa;
   display: inline-block;
   font-size: 15px;
@@ -18,7 +55,8 @@ body {
   text-decoration: none;
 }
 
-.navbar a:hover {
+.menu a:hover {
   color: #ffffff;
 }
 
+*/
