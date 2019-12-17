@@ -9,6 +9,7 @@ header
   background-size: 100% 100%;
   text-align: center;
   height: 500px;
+  font-weight:bold;
 }
 
 header p
@@ -25,14 +26,6 @@ header p
     padding:2px;
 }
 
-
-
-header div
-{
-  position: relative;
-  top:25%;
-}
-
 menu
 {
   position: sticky;
@@ -41,8 +34,9 @@ menu
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
+  align-items:center;
   background-color: white;
-  margin: 10px;
+  margin: 0;
   padding:0;
 }
 
@@ -56,6 +50,12 @@ menu img
 {
     width:30px;
     height:30px;
+}
+
+header div
+{
+  position: relative;
+  top:25%;
 }
 
 a /*précision ???*/
@@ -103,7 +103,6 @@ a /*précision ???*/
     flex: 1;
     min-width: 200px;
     margin-left: 20px;
-    justify-content: center;
     align-items: center;
     display: flex;
 }
