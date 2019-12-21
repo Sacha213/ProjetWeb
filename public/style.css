@@ -171,22 +171,40 @@ div#fond_recherche
 
 footer
 {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
   text-align: center;
-  background-color: gray;
+  background-color: black;
 
 }
 
-footer nav 
+footer nav#footer_1
 {
  display: flex;
- margin-left: 20px;
  flex-direction: column;
  align-items: flex-start;
+ margin-bottom: 25px;
+}
+
+footer nav#footer_2 div
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer img
+{
+  margin: 10px;
 }
 
 footer p
 {
+  position: relative;
   margin-bottom: 0;
+  color:white;
 }
 
 footer a
@@ -197,8 +215,22 @@ footer a
 
 nav a /*Pour enlever la couleur dans le menu du footer*/
 {
-  color: black;
+  color: white;
 }
+
+footer>p
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+footer>p a
+{
+  order:-1;
+  margin-right: 5px;
+}
+
 
 /*
 
