@@ -7,18 +7,19 @@
     </head>
     <body>
 		<div class="bandeau">
-		  <p><a href="produit.html">Promotion: -50% jusqu'à ce soir minuit</a></p><!--Garder le bandeau ???-->
+		  <p><a href="produit.html">Promotion: -50% jusqu'à ce soir minuit</a></p>
 		</div>
 		<menu>
-				<img src="Images/logosite.png" alt="Logo Skipro">
+				<a href="accueil.html"><img src="Images/logosite.png" alt="Logo Skipro"></a>
                 <p><a href="accueil.html">Accueil</a></p>
-                <p><a href=" ">Catalogue</a></p>
+                <p><a href="recherche.html">Catalogue</a></p>
                 <p><a href="">Qui sommes nous ?</a></p>
                 <p><a href="">Panier</a></p>
-                <input name="recherche" placeholder="rechercher"><button>Entrer</button><!--Rediriger vers la page recherche-->
+                <form method="get"><input name="recherche" placeholder="rechercher"><a href="recherche.html"><button>Entrer</button></a></form><!--formulaire adresse-->
         </menu>
         
         <h1>Résultat de votre recherche :</h1>
+		<div id="fond_recherche"><div>
 
         <div class="resultat_recherche">
             <!--bloc résultat avec 6 produits-->
@@ -30,26 +31,31 @@
             <div class="bloc">
                 <img src="Images/ski1.jpg" alt="ski 1"> 
                 <p>modele 1</p>
+				<p>Rupture de stock</p>
             </div>
             <div class="bloc">
                 <img src="Images/ski2.jpg" alt="ski modele">
                 <p>modele 2</p>
+				<p>Rupture de stock</p>
             </div>
             <div class="bloc">
                 <img src="Images/ski3.png" alt="ski modele">
                 <p>modele 3</p>
+				<p>Rupture de stock</p>
             </div>
             <div class="bloc">
                 <img src="Images/ski4.jpeg" alt="ski modele">
                 <p>modele 4</p>
+				<p>Rupture de stock</p>
             </div>
             <div class="bloc">
                 <img src="Images/ski5.jpg" alt="ski blabla">
                 <p>modele 5</p>
+				<p>Rupture de stock</p>
             </div>
         </div>
 
-        
+
 
 		<footer>
             <nav>
