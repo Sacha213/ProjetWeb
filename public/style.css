@@ -26,7 +26,7 @@ header p
     padding:2px;
 }
 
-menu
+menu /*Possibilité de margin pour mettre le logo à gauche mais pas responsive*/
 {
   position: sticky;
   top:0; 
@@ -59,7 +59,7 @@ header div
   top:25%;
 }
 
-a /*pr�cision ???*/
+a /*pr?ision ???*/
 {
 	text-decoration: none;
   	color: black;
