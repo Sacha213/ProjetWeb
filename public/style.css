@@ -109,10 +109,9 @@ a /*pr?ision ???*/
 
 }
 
-div#fond_recherche 
+div#image_fond
 {
     background: url("Images/image_recherche.jpg") no-repeat;
-    background-size: 100%;
 
     
 }
@@ -135,17 +134,10 @@ div#fond_recherche
     border-radius: 100px;
     border-color: #FFDFA0;
     border-width: 15px;
-    max-width: 350px;
+    max-width: 100%;
 }
 
-.bloc p:last-child
-{
-    /*visibility:hidden;*/
-    position:relative;
-    bottom:50%;
-    color:red;
-    font-weight:bold;
-}
+
 
 .bloc {
         margin: 10px;
@@ -167,7 +159,10 @@ div#fond_recherche
   filter: grayscale(0);
 }
 
-
+div#place 
+{
+  height: 250px;
+}
 
 footer
 {
