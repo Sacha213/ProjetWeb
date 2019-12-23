@@ -6,15 +6,19 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <div class="bandeau">
+      <p><a href="produit.html">Promotion: -50% jusqu'à ce soir minuit</a></p><!--Couleur fond en orange-->
+      </div>
     <menu>
-        <img src="Images/logosite.png" alt="Logo Skipro" />
-        <p><a href="">Accueil</a></p>
-        <p><a href=" ">Catalogue</a></p>
-        <p><a href="">Qui sommes nous ?</a></p>
-        <p><a href="">Panier</a></p>
-        <input name="recherche" placeholder="rechercher" />
-        <button>Entrer</button><!--Rediriger vers la page recherche-->
-    </menu>
+                <a href="index.html"><img src="Images/logosite.png" alt="Logo Skipro"></a>
+                <p><a href="index.html">Accueil</a></p>
+                <p><a href="recherche.html">Catalogue</a></p>
+                <p><a href="">Qui sommes nous ?</a></p>
+                <p><a href="">Panier</a></p>
+                <input name="recherche" placeholder="rechercher"><button><a href="recherche.html">Entrer</a></button><!--Rediriger vers la page recherche-->
+        </menu>
+
+    <main>
     <div class="image">
         <img src="Images/quisommesnous1.jpg" alt="qui sommes nous" />
         <p>
@@ -28,8 +32,28 @@
             Nous sommes la pour vous guider vers les produits adaptés pour chaque niveau ou chaque météo, type de neige. On espere que vous passerez un bon moment en notre compagnie, et bon ride!
         </p>
     </div>
+
+    </main>
     <footer>
-        <p>© 2019 <a href=accueil.html>Skipro</a></p>
+            <nav id="footer_1">
+                <p><a href="">CGV</a></p>
+                <p><a href="">CGU</a></p>
+                <p><a href="">Information légales</a></p>
+                <p><a href="">Données personnelles et cookies</a></p>
+            </nav>
+
+            <nav id="footer_2">
+                <p>Nos partenaires</p>
+                <div>
+                    <a href="https://www.audi.fr/fr/web/fr.html"><img src="Images/audi.png" alt="logo audi"></a>
+                    <a href="https://www.bestofthealps.com/fr/"><img src="Images/alpes.png" alt="logo alpes"></a>
+                    <a href="https://www.chamrousse.com/"><img src="Images/chamrousse.png" alt="logo chamrousse"></a>
+                    <a href="https://www.clubmed.fr/"><img src="Images/club-med.png" alt="logo club-med">
+                    <a href="https://www.ucpa.com/"><img src="Images/ucpa.png" alt="logo ucpa"></a>
+                </div>
+            </nav>
+
+      <p> © 2019 <a href=index.html>Skipro </a></p> 
     </footer>
 </body>
 </html>
