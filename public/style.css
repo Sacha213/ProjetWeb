@@ -1,0 +1,236 @@
+body {
+  font-family: sans-serif; /*Mettre plusieurs polices*/
+  margin: auto;
+}
+
+header
+{
+  background: url("Images/imagefondslogan.jpg") no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  height: 600px;
+  font-weight:bold;
+}
+
+header p
+{
+    /*modifier couleur ou opacité*/
+}
+
+.bandeau p 
+{
+    font-weight: bold;
+    background-color: #FFDFA0;
+    text-align: center;
+    margin:0;
+    padding:5px;
+}
+
+menu /*Possibilité de margin pour mettre le logo à gauche mais pas responsive*/
+{
+  position: sticky;
+  top:0; 
+  z-index:2;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items:center;
+  background-color: white;
+  margin: 0;
+  padding:0;
+}
+
+menu p 
+{
+	font-weight: normal;
+  	margin: 1%;
+}
+
+menu img
+{
+    width:30px;
+    height:30px;
+}
+
+
+header div
+{
+  position: relative;
+  top:25%;
+}
+
+a /*pr?ision ???*/
+{
+	text-decoration: none;
+  	color: black;
+}
+
+.promotion
+{
+    display: flex;
+}
+
+.promotion img:first-child
+{
+    order:1;
+}
+
+.presentation div
+{
+	display: flex;
+    margin:5px;
+    width:60%;
+    position:relative;
+    left:20%;
+    flex-wrap:wrap;
+}
+
+.presentation div:first-child
+{
+    border-bottom:none; /*Pour ne pas doubler la bordure*/
+}
+
+.presentation img 
+{
+    max-width: 520px;
+    max-height: 470px;
+    border-radius: 200px;
+}
+
+.presentation p {
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    border-bottom: solid;
+    border-color: #FFDFA0;
+
+}
+
+div#image_fond
+{
+    background: url("Images/image_recherche.jpg") no-repeat;
+
+    
+}
+
+.resultat_recherche 
+{
+  display: flex;
+  flex-wrap: wrap;
+  width:80%;
+  justify-content:center;
+  position: relative;
+  left: 10%;
+  top:250px;
+
+}
+.resultat_recherche img
+{
+    max-height: 400px;
+    border-style: solid;
+    border-radius: 100px;
+    border-color: #FFDFA0;
+    border-width: 15px;
+    max-width: 100%;
+}
+
+
+
+.bloc {
+        margin: 10px;
+    }
+
+.bloc p
+{
+  text-align: center;
+}
+
+.resultat_recherche img:hover
+{
+  border-style: ridge;
+  filter: grayscale(1);
+}
+
+.resultat_recherche .bloc:first-child img:hover
+{
+  filter: grayscale(0);
+}
+
+div#place 
+{
+  height: 250px;
+}
+
+footer
+{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  text-align: center;
+  background-color: black;
+
+}
+
+footer nav#footer_1
+{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ margin-bottom: 25px;
+}
+
+footer nav#footer_2 div
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer img
+{
+  margin: 10px;
+}
+
+footer p
+{
+  position: relative;
+  margin-bottom: 0;
+  color:white;
+}
+
+footer a
+{
+  text-decoration: none;
+  color: rgb(240, 193, 99);
+}
+
+nav a /*Pour enlever la couleur dans le menu du footer*/
+{
+  color: white;
+}
+
+footer>p
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+footer>p a
+{
+  order:-1;
+  margin-right: 5px;
+}
+
+
+/*
+
+.menu a:hover {
+  color: #ffffff;
+}
+
+*/
