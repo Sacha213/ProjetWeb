@@ -3,18 +3,10 @@ body {
   margin: auto;
 }
 
-header
+header a 
 {
-  background: url("Images/imagefondslogan.jpg") no-repeat;
-  background-size: 100% 100%;
-  text-align: center;
-  height: 600px;
-  font-weight:bold;
-}
-
-header p
-{
-    /*modifier couleur ou opacité*/
+	text-decoration: none;
+  	color: black;
 }
 
 .bandeau p 
@@ -26,7 +18,7 @@ header p
     padding:5px;
 }
 
-menu /*Possibilité de margin pour mettre le logo à gauche mais pas responsive*/
+header nav 
 {
   position: sticky;
   top:0; 
@@ -40,29 +32,32 @@ menu /*Possibilité de margin pour mettre le logo à gauche mais pas responsive*
   padding:0;
 }
 
-menu p 
+
+header nav p 
 {
 	font-weight: normal;
   	margin: 1%;
 }
 
-menu img
+header nav img
 {
     width:30px;
     height:30px;
 }
 
+header .fond
+{
+  background: url("Images/imagefondslogan.jpg") no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  height: 600px;
+  font-weight:bold;
+}
 
-header div
+.fond div.texte_accueil
 {
   position: relative;
   top:25%;
-}
-
-a /*pr?ision ???*/
-{
-	text-decoration: none;
-  	color: black;
 }
 
 .promotion
@@ -75,7 +70,7 @@ a /*pr?ision ???*/
     order:1;
 }
 
-.presentation div, div.image
+.presentation div, .bloc-nom
 {
 	display: flex;
     margin:5px;
@@ -85,59 +80,14 @@ a /*pr?ision ???*/
     flex-wrap:wrap;
 }
 
-main div:last-child img
-{
-	order:1;
-}
-
-#validation_commande
-{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 600px;
-}
-
-#validation_commande img
-{
-	max-width: 200px;
-	border-radius: 200px;
-}
-
-.presentation img, .image img
+.presentation img, .bloc-nom img
 {
     max-width: 520px;
     max-height: 470px;
     border-radius: 200px;
 }
 
-#panier
-{
-	display: flex;
-	position: relative;
-	left: 20%;
-	width: 60%;
-	align-items: center;
-	flex-wrap: wrap;
-
-}
-
-#panier img
-{
-	border-style: solid;
-	border-width: 10px;
-	border-color: #FFDFA0;
-	border-radius: 200px;
-	max-width: 250px;
-}
-
-#panier form
-{
-	width: 500px;
-}
-
-.presentation p, .image p
+.presentation p, .bloc-nom p
 {
     text-align: center;
     flex: 1;
@@ -150,11 +100,16 @@ main div:last-child img
 
 }
 
-div#image_fond
+main#quisommesnous div:last-child img
+{
+	order:1;
+}
+
+
+
+main#recherche
 {
     background: url("Images/image_recherche.jpg") no-repeat;
-
-    
 }
 
 .resultat_recherche 
@@ -180,9 +135,10 @@ div#image_fond
 
 
 
-.bloc {
+.bloc 
+{
         margin: 10px;
-    }
+}
 
 .bloc p
 {
@@ -200,9 +156,56 @@ div#image_fond
   filter: grayscale(0);
 }
 
-div#place 
+main#recherche #place 
 {
   height: 250px;
+}
+
+#commande
+{
+	display: flex;
+	position: relative;
+	left: 20%;
+	width: 60%;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+
+#commande img
+{
+	border-style: solid;
+	border-width: 10px;
+	border-color: #FFDFA0;
+	border-radius: 200px;
+	max-width: 250px;
+	margin-right: 5px;
+}
+
+#commande form
+{
+	width: 500px;
+}
+
+main#commande #place 
+{
+  height: 400px;
+}
+
+
+main#validation_commande
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 600px;
+}
+
+main#validation_commande img
+{
+	max-width: 200px;
+	border-radius: 200px;
 }
 
 footer
@@ -212,7 +215,12 @@ footer
   justify-content: space-between;
   text-align: center;
   background-color: black;
+  color:white;
+}
 
+footer p
+{
+  margin-bottom: 0;
 }
 
 footer nav#footer_1
@@ -231,16 +239,9 @@ footer nav#footer_2 div
   align-items: center;
 }
 
-footer img
+footer nav#footer_2 img
 {
   margin: 10px;
-}
-
-footer p
-{
-  position: relative;
-  margin-bottom: 0;
-  color:white;
 }
 
 footer a
@@ -249,7 +250,7 @@ footer a
   color: rgb(240, 193, 99);
 }
 
-nav a /*Pour enlever la couleur dans le menu du footer*/
+footer nav a /*Pour enlever la couleur dans le menu du footer*/
 {
   color: white;
 }
@@ -268,10 +269,3 @@ footer>p a
 }
 
 
-/*
-
-.menu a:hover {
-  color: #ffffff;
-}
-
-*/

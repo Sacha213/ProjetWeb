@@ -6,53 +6,67 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bandeau">
-      <p><a href="produit.html">Promotion: -50% jusqu'à ce soir minuit</a></p><!--Couleur fond en orange-->
-      </div>
-      <menu>
-                <a href="index.html"><img src="Images/logosite.png" alt="Logo Skipro"></a>
-                <p><a href="index.html">Accueil</a></p>
-                <p><a href="recherche.html">Catalogue</a></p>
-                <p><a href="">Qui sommes nous ?</a></p>
-                <p><a href="">Panier</a></p>
-                <input name="recherche" placeholder="rechercher"><button><a href="recherche.html">Entrer</a></button><!--Rediriger vers la page recherche-->
-        </menu>
-    <main id="panier">
-    <img src="Images/skiavendre.jpg" alt="ski a vendre" />
-    <form>
-        <input placeholder="nom">
-        <input placeholder="prenom">
-        <input placeholder="adresse">
-        <input placeholder="telephone">
-        <select>
-            <option>Visa</option>
-            <option>Mastercard</option>
-            <option>CB</option>
-            <option>American Express</option>
-            <option>Paypal</option>
-            <option>Apple pay</option>
-        </select>
-        <input placeholder="code cb">
-        <input placeholder="numero cb">
-        <input placeholder="cryptogramme">
-        <button>Valider la commande</button>
-        <p>
-            Sexe :
-            <label><input name="Sexe" type="radio" value="H"> Homme</label>
-            <label><input name="Sexe" type="radio" value="F"> Femme</label>
-        </p>
-    </form>
-</main>
-    <footer>
-            <nav id="footer_1">
-                <p><a href="">CGV</a></p>
-                <p><a href="">CGU</a></p>
-                <p><a href="">Information légales</a></p>
-                <p><a href="">Données personnelles et cookies</a></p>
-            </nav>
+    
+    <header>
+        <div class="bandeau">
+            <p><a href="produit.html">Promotion: -50% jusqu'à ce soir minuit</a></p>
+        </div>
 
-            <nav id="footer_2">
-                <p>Nos partenaires</p>
+        <menu>
+            <a href="index.html"><img src="Images/logosite.png" alt="Logo Skipro"></a>
+            <p><a href="index.html">Accueil</a></p>
+            <p><a href="recherche.html">Catalogue</a></p>
+            <p><a href="">Qui sommes nous ?</a></p>
+            <p><a href="">Panier</a></p>
+            <input name="recherche" placeholder="rechercher"><button><a href="recherche.html">Entrer</a></button><!--Rediriger vers la page recherche-->
+        </menu>
+    </header>
+
+    <main id="commande">
+        
+        <img src="Images/skiavendre.jpg" alt="ski a vendre" />
+        
+        <form>
+            <input placeholder="nom">
+            <input placeholder="prenom">
+            <input placeholder="adresse">
+            <input placeholder="telephone">
+            
+            <select>
+                <option>Visa</option>
+                <option>Mastercard</option>
+                <option>CB</option>
+                <option>American Express</option>
+                <option>Paypal</option>
+                <option>Apple pay</option>
+            </select>
+
+            <input placeholder="code cb">
+            <input placeholder="numero cb">
+            <input placeholder="cryptogramme">
+            <button>Valider la commande</button>
+            
+            <p>
+                Sexe :
+                <label><input name="Sexe" type="radio" value="H"> Homme</label>
+                <label><input name="Sexe" type="radio" value="F"> Femme</label>
+            </p>
+        </form>
+
+        <div id="place"></div>
+
+    </main>
+
+    <footer>
+        <nav id="footer_1">
+            <p><a href="">CGV</a></p>
+            <p><a href="">CGU</a></p>
+            <p><a href="">Information légales</a></p>
+            <p><a href="">Données personnelles et cookies</a></p>
+        </nav>
+
+        <nav id="footer_2">
+            <p>Nos partenaires</p>
                 <div>
                     <a href="https://www.audi.fr/fr/web/fr.html"><img src="Images/audi.png" alt="logo audi"></a>
                     <a href="https://www.bestofthealps.com/fr/"><img src="Images/alpes.png" alt="logo alpes"></a>
@@ -62,7 +76,7 @@
                 </div>
             </nav>
 
-      <p> © 2019 <a href=index.html>Skipro </a></p> 
+        <p> © 2019 <a href=index.html>Skipro </a></p> 
     </footer>
 </body>
 </html>

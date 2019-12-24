@@ -6,10 +6,12 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="bandeau">
-      <p><a href="produit.html">Promotion: -50% jusqu'à ce soir minuit</a></p><!--Couleur fond en orange-->
-      </div>
-    <menu>
+    <header>
+        <div class="bandeau">
+            <p><a href="produit.html">Promotion: -50% jusqu'à ce soir minuit</a></p><!--Couleur fond en orange-->
+        </div>
+        
+        <menu>
                 <a href="index.html"><img src="Images/logosite.png" alt="Logo Skipro"></a>
                 <p><a href="index.html">Accueil</a></p>
                 <p><a href="recherche.html">Catalogue</a></p>
@@ -17,23 +19,26 @@
                 <p><a href="">Panier</a></p>
                 <input name="recherche" placeholder="rechercher"><button><a href="recherche.html">Entrer</a></button><!--Rediriger vers la page recherche-->
         </menu>
+    </header>
 
-    <main>
-    <div class="image">
-        <img src="Images/quisommesnous1.jpg" alt="qui sommes nous" />
-        <p>
-            Nous deux jeunes passionnés par le sport et la montagne depuis notre enfance, passionnés par l'univers du ski, nous aimons vous partager cet univers et vous faire découvrir la passion de notre sport.
-        </p>
-    </div>
+    <main id="quisommesnous">
 
-    <div class="image">
-        <img src="Images/quisommesnous2.jpg" alt="qui sommes nous" />
-        <p>
-            Nous sommes la pour vous guider vers les produits adaptés pour chaque niveau ou chaque météo, type de neige. On espere que vous passerez un bon moment en notre compagnie, et bon ride!
-        </p>
-    </div>
+        <div class="bloc-nom">
+            <img src="Images/quisommesnous1.jpg" alt="qui sommes nous" />
+            <p>
+              Nous deux jeunes passionnés par le sport et la montagne depuis notre enfance, passionnés par l'univers du ski, nous aimons vous partager cet univers et vous faire découvrir la passion de notre sport.
+            </p>
+        </div>
+
+        <div class="bloc-nom">
+            <img src="Images/quisommesnous2.jpg" alt="qui sommes nous" />
+            <p>
+                Nous sommes la pour vous guider vers les produits adaptés pour chaque niveau ou chaque météo, type de neige. On espere que vous passerez un bon moment en notre compagnie, et bon ride!
+            </p>
+        </div>
 
     </main>
+    
     <footer>
             <nav id="footer_1">
                 <p><a href="">CGV</a></p>
