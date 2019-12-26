@@ -3,11 +3,19 @@ body {
   margin: auto;
 }
 
-header a 
+a
 {
 	text-decoration: none;
+}
+
+/*header*/
+
+header a 
+{
   	color: black;
 }
+
+/*bandeau promotion*/
 
 .bandeau p 
 {
@@ -17,6 +25,8 @@ header a
     margin:0;
     padding:5px;
 }
+
+/*menu*/
 
 header nav 
 {
@@ -44,6 +54,8 @@ header nav img
     width:30px;
     height:30px;
 }
+
+/*page d'accueil et qui sommes nous*/
 
 header .fond
 {
@@ -105,7 +117,7 @@ main#quisommesnous div:last-child img
 	order:1;
 }
 
-
+/*page recherche*/
 
 main#recherche
 {
@@ -134,7 +146,6 @@ main#recherche
 }
 
 
-
 .bloc 
 {
         margin: 10px;
@@ -160,6 +171,8 @@ main#recherche #place
 {
   height: 250px;
 }
+
+/*page commande*/
 
 #commande
 {
@@ -192,6 +205,7 @@ main#commande #place
   height: 400px;
 }
 
+/*page validation de commande*/
 
 main#validation_commande
 {
@@ -207,6 +221,14 @@ main#validation_commande img
 	max-width: 200px;
 	border-radius: 200px;
 }
+
+#validation_commande a
+{
+	color: #FFA700C9;
+}
+
+
+/*footer*/
 
 footer
 {
