@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>SKIPRO | ski</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="bandeau">
+            <p><a href="produit.html">Promotion: -50% jusqu'à ce soir minuit</a></p>
+        </div>
+
+        <nav>
+            <a href="../index.html"><img src="../Images/logosite.png" alt="Logo Skipro"></a>
+            <p><a href="../index.html">Accueil</a></p>
+            <p><a href="recherche.html">Catalogue</a></p>
+            <p><a href="quisommesnous.html">Qui sommes nous ?</a></p>
+            <p><a href="commande.html">Panier</a></p>
+            <form action="recherche.html">
+                    <input name="recherche" placeholder="rechercher"><button>Entrer</button>
+            </form>
+        </nav>
+    </header>
+
+    <main id="commande">
+        
+        <img src="../Images/skiavendre.jpg" alt="ski a vendre" />
+        
+        <form action="validation_commande.html" method="post">
+        <table>
+            <tr>
+                <td><label for="name">Nom :</label></td>
+                <td><input id="name" type="text" name="name"></td>
+            </tr>
+
+             <tr>
+                <td><label for="gname">Prénom :</label></td>
+                <td><input id="gname" type="text" name="gname"></td>
+            </tr>
+
+            <tr>
+                <td><p>Sexe :</p></td>
+                <td>
+                    <label for="man">Homme</label>
+                    <input id="man" name="Sexe" type="radio" value="H">
+                    <label for="woman">Femme</label>
+                    <input id="woman" name="Sexe" type="radio" value="F">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="address"> Adresse :</label></td>
+                <td><input id="address" type="text" name="address"></td>
+            </tr>
+            <tr>
+                <td><label for="numero">Téléphone :</label></td>
+                <td><input id="numero" type="text" name="numero"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="pay">Type de paiement :</label></td>
+                <td><select id="pay">
+                    <option>Visa</option>
+                    <option>Mastercard</option>
+                    <option>CB</option>
+                    <option>American Express</option>
+                    <option>Paypal</option>
+                    <option>Apple pay</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="num_card">Numéro de la carte:</label></td>
+                <td><input id="num_card" type="text" name="num_card"></td>
+            </tr>
+            <tr>
+                <td><label for="cryptogramme">Cryptogramme :</label></td>
+                <td><input id="cryptogramme" type="text" name="cryptogramme"></td>
+            </tr>
+            </table>
+            
+            <button>Valider la commande</button></td>
+            
+        </form>
+
+        <div id="place"></div>
+
+    </main>
+
+    <footer>
+        <nav id="footer_1">
+            <p><a href="">CGV</a></p>
+            <p><a href="">CGU</a></p>
+            <p><a href="">Information légales</a></p>
+            <p><a href="">Données personnelles et cookies</a></p>
+        </nav>
+
+        <nav id="footer_2">
+            <p>Nos partenaires</p>
+                <div>
+                    <a href="https://www.audi.fr/fr/web/fr.html"><img src="../Images/audi.png" alt="logo audi"></a>
+                    <a href="https://www.bestofthealps.com/fr/"><img src="../Images/alpes.png" alt="logo alpes"></a>
+                    <a href="https://www.chamrousse.com/"><img src="../Images/chamrousse.png" alt="logo chamrousse"></a>
+                    <a href="https://www.clubmed.fr/"><img src="../Images/club-med.png" alt="logo club-med">
+                    <a href="https://www.ucpa.com/"><img src="../Images/ucpa.png" alt="logo ucpa"></a>
+                </div>
+            </nav>
+
+        <p> © 2019 <a href=../index.html>Skipro </a></p> 
+    </footer>
+</body>
+</html>
