@@ -1,59 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
+        <meta name="generator" content="GitLab Pages">
         <title>SKIPRO | accueil</title>
-                <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
-    <header>
-
-      <div class="bandeau">
-      <p><a href="produit.html">Promotion: -50% jusqu'à ce soir minuit</a></p><!--Couleur fond en orange-->
-      </div>
+    <body>  
+  		<header>
+      		<div class="bandeau">
+     			<p><a href="pages/produit.html">Promotion: -50% jusqu'à ce soir minuit</a></p>
+      		</div>
     
-      <nav>
-        <a href="accueil.html"><img src="Images/logosite.png" alt="Logo Skipro"></a>
-                <p><a href="accueil.html">Accueil</a></p>
-                <p><a href="recherche.html">Catalogue</a></p>
-                <p><a href="quisommesnous.html">Qui sommes nous ?</a></p>
-                <p><a href="">Panier</a></p>
-                <input name="recherche" placeholder="rechercher"><a href="recherche.html"><button>Entrer</button></a><!--Rediriger vers la page recherche-->
-          </nav>
+      		<nav>
+        		<a href="index.html"><img src="Images/logosite.png" alt="Logo Skipro"></a>
+                <p><a href="index.html">Accueil</a></p>
+                <p><a href="pages/recherche.html">Catalogue</a></p>
+                <p><a href="pages/quisommesnous.html">Qui sommes nous ?</a></p>
+                <p><a href="pages/commande.html">Panier</a></p>
+                <form action="pages/recherche.html">
+                	<input name="recherche" placeholder="rechercher"><button>Entrer</button>
+            	</form>
+      		</nav>
 
-          <div class=fond>
-            <div class="texte_accueil">
-                <h1>Bienvenue sur SkiPro</h1>
-                <p>Des skis à grande vitesse mais à petits prix toute l'année, expert depuis 2007.</p>
-          <button>Je découvre</button>
-            </div>
-          </div>
-    </header>
+          	<div class=fond>
+            	<div class="texte_accueil">
+                	<h1>Bienvenue sur SkiPro</h1>
+                	<p>Des skis à grande vitesse mais à petits prix toute l'année, expert depuis 2007.</p>
+          			<a href="pages/recherche.html" id="button">Je découvre</a>
+            	</div>
+          	</div>
+    	</header>
 
         <main>
-          <div class="promotion">
+          	<div class="promotion">
               <!--images qui défilent-->
-        <img  src="Images/50%.jpg" alt="promotion 50 pourcent">
-        <img  src="Images/ski3.png" alt="Ski en promotion">
-          </div>
+        		<img  src="Images/promotion.jpg" alt="promotion 50 pourcent">
+        		<img  src="Images/ski3.png" alt="Ski en promotion">
+          	</div>
 
-          <div class="presentation"><!--Bloc 2 images + Texte = 4 blocs-->
-              <div class="bloc1">
-                  <img src="Images/skipoudreuse.jpg" alt="Ski poudreuse">
-                  <p>Nous proposons des skis pour tout terrain, par exemple notre nouvelle gamme de ski poudreuse pour les plus aventureux.</p>
-              </div>
+          	<div class="presentation"><!--Bloc 2 images + Texte = 4 blocs-->
+              	<div class="bloc1">
+                  	<img src="Images/skipoudreuse.jpg" alt="Ski poudreuse">
+                  	<p>Nous proposons des skis pour tout terrain, par exemple notre nouvelle gamme de ski poudreuse pour les plus aventureux.</p>
+             	</div>
 
-              <div class="bloc2">
-                  <p>Nous proposons également des skis pour les plus téméraires qui sont fans de frissons et de vitesse en dévalant les pistes.</p>
-                  <img src="Images/skipiste.jpg" alt="Ski piste">
-              </div>
-
-          </div>
+            	<div class="bloc2">
+                 	 <p>Nous proposons également des skis pour les plus téméraires qui sont fans de frissons et de vitesse en dévalant les pistes.</p>
+                  	<img src="Images/skipiste.jpg" alt="Ski piste">
+              	</div>
+			</div>
 
         </main>
           
-    <footer>
+    	<footer>
             <nav id="footer_1">
                 <p><a href="">CGV</a></p>
                 <p><a href="">CGU</a></p>
@@ -72,7 +73,7 @@
                 </div>
             </nav>
 
-            <p> © 2019 <a href=accueil.html>Skipro </a></p> 
-    </footer>
-  </body>
+            <p> © 2019 <a href=index.html>Skipro </a></p> 
+    	</footer>
+  	</body>
 </html>
