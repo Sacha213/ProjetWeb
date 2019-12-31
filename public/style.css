@@ -468,4 +468,9 @@ footer>p a
     left: 0%;
     width: 100%;
   }
+
+  .presentation img, .bloc-nom img
+{
+    max-width: 200px;
+}
 }
